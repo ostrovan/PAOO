@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Executable.dir/src/main.cpp.o CMakeFiles/Executable.dir/src/Animale.cpp.o  -o Executable 

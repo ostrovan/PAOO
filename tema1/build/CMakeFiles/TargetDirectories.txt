@@ -1,0 +1,3 @@
+/home/narcisa/Desktop/paoo/teme/tema1/build/CMakeFiles/edit_cache.dir
+/home/narcisa/Desktop/paoo/teme/tema1/build/CMakeFiles/rebuild_cache.dir
+/home/narcisa/Desktop/paoo/teme/tema1/build/CMakeFiles/Executable.dir

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/narcisa/Desktop/paoo/teme/tema1/src/Animale.cpp
+../inc/Animale.hpp
+/home/narcisa/Desktop/paoo/teme/tema1/inc/Animale.hpp
+iostream
+-
+
+/home/narcisa/Desktop/paoo/teme/tema1/src/main.cpp
+iostream
+-
+../inc/Animale.hpp
+/home/narcisa/Desktop/paoo/teme/tema1/inc/Animale.hpp
+
