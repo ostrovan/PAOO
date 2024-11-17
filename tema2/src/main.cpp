@@ -9,6 +9,7 @@ int main() {
     cout << burger.toString() << endl;
 
     //Food copyPizza = pizza; 
+    //Food copyBurger = burger;
 
     return 0;
 }
