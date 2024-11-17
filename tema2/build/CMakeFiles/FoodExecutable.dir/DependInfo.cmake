@@ -4,14 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/narcisa/Desktop/paoo/PAOO/tema2/src/Food.cpp" "/home/narcisa/Desktop/paoo/PAOO/tema2/build/CMakeFiles/Project.dir/src/Food.cpp.o"
-  "/home/narcisa/Desktop/paoo/PAOO/tema2/src/main.cpp" "/home/narcisa/Desktop/paoo/PAOO/tema2/build/CMakeFiles/Project.dir/src/main.cpp.o"
+  "/home/narcisa/Desktop/paoo/PAOO/tema2/src/main.cpp" "/home/narcisa/Desktop/paoo/PAOO/tema2/build/CMakeFiles/FoodExecutable.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../inc"
   )
 
 # Targets to which this target links.

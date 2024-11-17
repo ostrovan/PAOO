@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Food.h
+iostream
+-
+string
+-
+
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Fruit.h
+Food.h
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Food.h
+
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Vegetable.h
+Food.h
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Food.h
+
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/main.cpp
+Food.h
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Food.h
+Fruit.h
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Fruit.h
+Vegetable.h
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Vegetable.h
+iostream
+-
+

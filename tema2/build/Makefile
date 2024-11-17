@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project
+# Target rules for targets named FoodExecutable
 
 # Build rule for target.
-Project: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Project
-.PHONY : Project
+FoodExecutable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FoodExecutable
+.PHONY : FoodExecutable
 
 # fast build rule for target.
-Project/fast:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/build
-.PHONY : Project/fast
-
-src/Food.o: src/Food.cpp.o
-
-.PHONY : src/Food.o
-
-# target to build an object file
-src/Food.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/Food.cpp.o
-.PHONY : src/Food.cpp.o
-
-src/Food.i: src/Food.cpp.i
-
-.PHONY : src/Food.i
-
-# target to preprocess a source file
-src/Food.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/Food.cpp.i
-.PHONY : src/Food.cpp.i
-
-src/Food.s: src/Food.cpp.s
-
-.PHONY : src/Food.s
-
-# target to generate assembly for a file
-src/Food.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/Food.cpp.s
-.PHONY : src/Food.cpp.s
+FoodExecutable/fast:
+	$(MAKE) -f CMakeFiles/FoodExecutable.dir/build.make CMakeFiles/FoodExecutable.dir/build
+.PHONY : FoodExecutable/fast
 
 src/main.o: src/main.cpp.o
 
@@ -156,7 +129,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/FoodExecutable.dir/build.make CMakeFiles/FoodExecutable.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -165,7 +138,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/FoodExecutable.dir/build.make CMakeFiles/FoodExecutable.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +147,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Project.dir/build.make CMakeFiles/Project.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/FoodExecutable.dir/build.make CMakeFiles/FoodExecutable.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -185,10 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Project"
-	@echo "... src/Food.o"
-	@echo "... src/Food.i"
-	@echo "... src/Food.s"
+	@echo "... FoodExecutable"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
