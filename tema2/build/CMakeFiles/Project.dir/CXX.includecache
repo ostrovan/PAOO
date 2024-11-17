@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/Food.hpp
+string
+-
+iostream
+-
+
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/main.cpp
+Food.hpp
+/home/narcisa/Desktop/paoo/PAOO/tema2/src/Food.hpp
+
