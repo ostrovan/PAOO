@@ -1,14 +1,13 @@
-#versiune CMake
-cmake_minimum_required(VERSION 3.0)
-
-#Project name
+cmake_minimum_required(VERSION 3.10)
 project(tema2)
 
-#seteaza standard C++
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
-#inc fișierele header
-include_directories(inc)
+# Surse
+set(SOURCES src/main.cpp src/Food.h src/Fruit.h src/Vegetable.h)
 
-#def executabil
-add_executable(Project src/main.cpp src/Food.cpp)
+# Creăm executabilul
+add_executable(FoodExecutable src/main.cpp)
+
+
+

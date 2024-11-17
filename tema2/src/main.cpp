@@ -1,15 +1,30 @@
-#include "Food.hpp"
+// src/main.cpp
+#include "Food.h"
+#include "Fruit.h"
+#include "Vegetable.h"
+#include <iostream>
 
 int main() {
-    
-    Food pizza("Pizza", 300, 500, "Italian"); 
-    cout << pizza.toString() << endl;
+    //obiect de tip Food
+    Food baseFood("General Food", 50);
+    baseFood.printInfo();
 
-    Food burger("Burger", 500, 250, "Fast Food");
-    cout << burger.toString() << endl;
+    //obiect de tip Fruit
+    Fruit apple("Apple", 22);
+    apple.printInfo();
 
-    //Food copyPizza = pizza; 
-    //Food copyBurger = burger;
+    //obiect de tip Vegetable
+    Vegetable carrot("Carrot", 18);
+    carrot.printInfo();
+
+    {
+        Vegetable tempVeg("Temporary Carrot", 20);
+        tempVeg.printInfo();
+    } // tempVeg iese din scope și se distruge aici
+
+    // Food copyFood = baseFood;
+
+    // Fruit movedApple = std::move(apple);
 
     return 0;
 }
